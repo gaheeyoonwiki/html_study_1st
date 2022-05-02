@@ -1,0 +1,91 @@
+
+<!doctype html>
+<html>
+<head>
+<title>우리집 강아지 귀여워</title>
+<meta charset="utf-8">
+</head>
+<style>
+  #active {
+    color:red;
+  }
+  .saw {
+    color:gray
+  }
+  body {
+    margin:0px;
+  }
+  a {
+    color:gray;
+  }
+  h1 {
+    font-size:45px;
+    text-align: center;
+    border-bottom: 2px solid gray;
+    margin: 0px;
+    padding:20px;
+  }
+  h4 {
+    color:black;
+    text-align:left;
+    border-left: 1px pink solid;
+  }
+  h6 {
+    color:green;
+    text-align: left;
+    border: 1px solid black;
+    width:70px;
+    margin: 7px;
+  }
+  img {
+    border: dotted 3px pink;
+    padding:1px;
+    margin:0px;
+    body:0px;
+    display:block;
+  }
+  img, h6, ol {
+    border-right:2px solid gray;
+    width:200px;
+    margin:0px;
+    padding:10px;
+  }
+  /* #grid 만 적어주세요. 뜻: 아이디가 gird인 태그의 display 속성을 grid로 지정하겠다 */
+  #grid {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+  }
+</style>
+
+<body>
+  <h1>땡이</h1>
+
+  <!-- 왼쪽 영역과, 오른쪽 영역을 <div> 태그로 묶고, id를 grid로 지정해주세요 -->
+  <div id="grid">
+    <!-- 왼쪽 영역으로 만들 태그를 <div>로 묶어주세요 -->
+    <div>
+      <img src="hi.jpg" width=200>
+
+      <h6>사진 더보기</h6>
+      <h4>
+        <ol>
+          <li><a href="https://www.instagram.com/p/CbUgYMiPIGs/?utm_source=ig_web_copy_link">0320</a></li>
+          <li><a href="https://www.instagram.com/reel/CbDhIYFgUtQ/?utm_source=ig_web_copy_link" target="_blank" title="땡이 영상"><font-decoration>0314</a></li>
+          <li><a href="https://www.instagram.com/p/CSW0XbzJeTE/?utm_source=ig_web_copy_link">0809</a></li>
+        </ol>
+      </h4>
+    </div>
+    <!-- 오른쪽 영역으로 만들 태그를 <div>로 묶어주세요 -->
+    <div>
+      <h2>Introduction</h2>
+        <ul>
+          <li><strong><font color="skyblue">Name:</font></strong> 땡이</li>
+          <li><strong><font color="ig_web_copy_link">Instagram:</font></strong> <a href="https://www.instagram.com/ddaeng_2_y/">ddang_2_y</a></li>
+          <li><strong><font color="skyblue">Nickname:</font></strong> 동그랑 땡, 곰땡이, 뚱땡이</li>
+          <li><strong><font color="skyblue">Sex:</font></strong> 여</li>
+          <li><strong><font color="skyblue">Feature:</font></strong> 귀여움</li>
+        </ul>
+    </div>
+  </div>
+</body>
+</html>
